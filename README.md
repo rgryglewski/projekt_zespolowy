@@ -1,3 +1,1 @@
-# Projekt zespołowy
-## System obsługi szpitala
----
+# djangoProject
