@@ -1,1 +1,3 @@
-# projekt_zespolowy
+# Projekt zespołowy
+## System obsługi szpitala
+---
