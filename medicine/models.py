@@ -6,6 +6,7 @@ from clinic.models import Patient, Doctor
 
 class Medicine(models.Model):
     name = models.CharField(max_length=150, unique=True, help_text="Nazwa leku")
+    description = models.CharField(max_length=200, help_text="Opis leku", null=True)
     needs_rx = models.BooleanField(help_text="Lek na receptę")  # czy na recepte
     stock = models.IntegerField(help_text="Ilość w magazynie")
 
