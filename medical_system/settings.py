@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'medicine',
     'clinic',
+    'pages',
 ]
 
 MIDDLEWARE = [
