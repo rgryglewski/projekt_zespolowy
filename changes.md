@@ -7,3 +7,8 @@ użyje tego pliku jako notatnika
 ---
 - zarejestrowano modele w panelu administracyjnym umożliwiając dodawanie obiektów
 - wyłączono tymczasowo wymagania złożoności haseł kont
+---
+- dodano modele aptekarza i wizyty
+- dodano grupy użytkowników - pacjenci, lekarze, aptekarze
+- utworzono szkielet html - tymczasowo bez funkcjonalności
+---
