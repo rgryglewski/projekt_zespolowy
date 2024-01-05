@@ -24,6 +24,9 @@ router.register(r'patients', views.PatientView, 'patient')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path("", include("pages.urls")),
+    path("medicine/", include("medicine.urls")),
     path('api/', include(router.urls)),
 
 ]
