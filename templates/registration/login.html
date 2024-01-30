@@ -1,8 +1,4 @@
-{% extends "base_generic.html" %}
-
-{% block content %}
-
-  {% if form.errors %}
+ {% if form.errors %}
     <p>Dane logowania nie są poprawne. Prosimy spróbować ponownie.</p>
   {% endif %}
 
@@ -30,4 +26,4 @@
     <input type="hidden" name="next" value="{{ next }}">
   </form>
 
-{% endblock %}
+

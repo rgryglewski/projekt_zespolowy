@@ -17,7 +17,10 @@
             <ul class="sidebar-nav">
               <li><a href="{% url 'index' %}">Strona główna</a></li>
               <li><a href="{% url 'about' %}">O nas</a></li>
-              <li><a href="{% url 'account' %}">Logowanie / rejestracja</a></li>
+              <li><a href="{% url 'account' %}">Logowanie</a></li>
+              <li><a href='medicine/medicine_list ' >Lista leków</a></li>
+              <li><a href='medicine/pharmacist_list' >Lista aptekarzy</a></li>
+              <li><a href='medicine/presciption_list' >Recepty</a></li>
             </ul>
           {% endblock %}
         </div>

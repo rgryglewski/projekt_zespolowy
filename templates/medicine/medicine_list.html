@@ -1,17 +1,16 @@
-{% extends "base_generic.html" %}
 
-{% block content %}
-  <h1>Test</h1>
-  <p>
-    Test strony "medicine_list"
-  </p>
+<h1>Lista dostępnych leków</h1>
     {% if medicine_list %}
     <ul>
       {% for medicine in medicine_list %}
       <li>
-        {{medicine.name}}
+        {{medicine.name}} <br>
+          {{medicine.description}}<br>
+          Czy na recepte: {{medicine.needs_rx}}<br>
+          Ilość: {{medicine.stock}}<br>
+
       </li>
       {% endfor %}
     </ul>
   {% endif %}
-{% endblock %}
+

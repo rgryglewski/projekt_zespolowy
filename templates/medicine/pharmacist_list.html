@@ -1,0 +1,11 @@
+
+<h1>Lista dostępnych aptekarzy</h1>
+    {% if pharmacists_list %}
+    <ul>
+      {% for pharmacist in pharmacists_list %}
+      <li>
+        {{pharmacist.name}}
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}

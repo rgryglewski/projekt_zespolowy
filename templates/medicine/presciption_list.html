@@ -1,0 +1,14 @@
+
+<h1>Lista recept</h1>
+    {% if presciptions_list %}
+    <ul>
+      {% for presciption in presciptions_list %}
+      <li>
+        {{presciption.date_prescribed}}<br>
+        {{presciption.patient}} <br>
+          {{presciption.doctor}}<br>
+          {{presciption.prescription.all}}<br>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}

@@ -29,4 +29,5 @@ urlpatterns = [
     path("medicine/", include("medicine.urls")),
     path('api/', include(router.urls)),
 
+
 ]
